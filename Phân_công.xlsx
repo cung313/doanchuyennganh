@@ -1,0 +1,27 @@
+ID,OutlineLevel,TaskName,Start,Finish,Duration,Predecessors,ResourceNames,Milestone
+1,1,Dự án phát triển hệ thống POS & quản lý kho SAMCO,2026-01-05,2026-05-07,0d,,,
+2,2,Giai đoạn khảo sát & phân tích yêu cầu,2026-01-05,2026-01-18,10d,,,
+3,3,Khảo sát quy trình bán hàng đại lí SAMCO,2026-01-05,2026-01-08,4d,,Nguyễn Thanh Cung,No
+4,3,Phân tích yêu cầu hệ thống POS & tồn kho,2026-01-09,2026-01-13,5d,3,Nguyễn Thanh Cung,No
+5,3,Viết tài liệu SRS,2026-01-14,2026-01-18,5d,4,Nguyễn Thanh Cung,Yes
+6,2,Giai đoạn thiết kế hệ thống,2026-01-19,2026-02-02,10d,,,
+7,3,Thiết kế cơ sở dữ liệu sản phẩm – đơn hàng – kho,2026-01-19,2026-01-23,5d,5,Nguyễn Thanh Cung,No
+8,3,Thiết kế API hệ thống POS,2026-01-24,2026-01-28,5d,7,Nguyễn Thanh Cung,No
+9,3,Thiết kế giao diện UI/UX bán hàng,2026-01-24,2026-01-30,6d,5,Lương Trung Hoàng,No
+10,3,Hoàn thiện kiến trúc hệ thống,2026-01-31,2026-02-02,3d,8,Nguyễn Thanh Cung,Yes
+11,2,Sprint 1 – Phát triển chức năng POS,2026-02-03,2026-03-01,20d,,,
+12,3,Lập trình Backend bán hàng & xử lý thanh toán,2026-02-03,2026-02-16,10d,10,Nguyễn Thanh Cung,No
+13,3,Lập trình Frontend màn hình bán hàng,2026-02-10,2026-02-20,9d,9,Lương Trung Hoàng,No
+14,3,Kiểm thử chức năng POS cơ bản,2026-02-21,2026-03-01,7d,12;13,Lương Trung Hoàng,Yes
+15,2,Sprint 2 – Quản lý kho & báo cáo,2026-03-02,2026-03-25,18d,,,
+16,3,Phát triển chức năng nhập xuất tồn kho,2026-03-02,2026-03-12,9d,14,Nguyễn Thanh Cung,No
+17,3,Xây dựng module báo cáo doanh thu,2026-03-13,2026-03-20,6d,16,Nguyễn Thanh Cung,No
+18,3,Phát triển chức năng offline PWA cơ bản,2026-03-10,2026-03-22,10d,14,Lương Trung Hoàng,No
+19,3,Kiểm thử tích hợp toàn hệ thống,2026-03-23,2026-03-25,3d,17;18,Lương Trung Hoàng,Yes
+20,2,Giai đoạn kiểm thử & hoàn thiện,2026-03-26,2026-04-15,15d,,,
+21,3,Kiểm thử hiệu năng & bảo mật hệ thống,2026-03-26,2026-04-05,8d,19,Lương Trung Hoàng,No
+22,3,Sửa lỗi & tối ưu hệ thống,2026-04-06,2026-04-15,8d,21,Nguyễn Thanh Cung;Lương Trung Hoàng,Yes
+23,2,Giai đoạn viết báo cáo & demo,2026-04-16,2026-05-07,15d,,,
+24,3,Viết chương phân tích thiết kế & triển khai,2026-04-16,2026-04-28,10d,22,Nguyễn Thanh Cung,No
+25,3,Thiết kế slide & chuẩn bị demo hệ thống,2026-04-25,2026-05-03,7d,22,Lương Trung Hoàng,No
+26,3,Chạy thử nghiệm & hoàn thiện báo cáo,2026-05-04,2026-05-07,4d,24;25,Nguyễn Thanh Cung;Lương Trung Hoàng,Yes
